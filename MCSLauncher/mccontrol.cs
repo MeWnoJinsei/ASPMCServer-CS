@@ -555,6 +555,9 @@ namespace MCSLauncher
 					if (ev.IndexOf("Chat") > -1) {
 						chatSendFarMsg(ev);
 					}
+                                        else if (ev.IndexOf("DeathInfo") > -1) {
+						chatSendFarDeathMsg(ev);
+					}     
 				}
 				return;
 			}
